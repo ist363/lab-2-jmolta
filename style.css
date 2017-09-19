@@ -1,0 +1,103 @@
+.big-blue{
+    display:flex;
+}
+.small{
+    margin: 10px;
+    height: 200px;
+    width:25%;
+}
+.small-2{
+    margin-left: 25%;
+    height: 200px;
+    width:25%;
+}
+.third{
+    margin: 10px;
+    height: 200px;
+    width:32%;
+    background-color: brown;
+}
+.fourty{
+    margin: 10px; 
+    height: 200px;
+    width:40%;
+}
+.medium{
+    margin: 10px; 
+    height: 200px;
+    width:50%;
+}
+.three-red{
+    display: flex;
+}
+.three-blue{
+    display: flex;
+    justify-content: space-between;
+}
+.three-green{
+    display: flex;
+    justify-content: space-between;
+}
+.three-gold{
+    display:flex;
+    justify-content: flex-start | flex-start | flex-end;
+}
+/* sheet 2 */
+.whole{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    height: 200px;
+    width:100%;
+    background-color: grey;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin:10px;
+    height: 1000px;
+}
+
+.main{
+    background-color: lightgrey;
+    border: 5px  lightslategray;
+    width:77%;
+    flex-grow: 1;
+}
+.side{
+    background-color: lightgrey;
+    border: 5px  lightslategray;
+    margin-left:10px;
+    margin-right: 20px;
+    width:20%;
+    flex-grow: 1;
+}
+.body3{
+    width:100%;
+    height: 100%;
+    display: flex;
+}
+.main2{
+    display: flex;
+    width:900px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:15%;
+}
+.row{
+    width:870px;
+    height:220px;
+    display: flex;
+
+}
